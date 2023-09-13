@@ -7,6 +7,13 @@ import java.util.List;
 public final class Deck {
     private List<Card> cards = new ArrayList<>();
     
+    /*
+    Deck copy constructor - a constructor which takes 1 param of its own class's type:
+    
+    public Deck(Deck deck) {
+        this.cards = deck.cards;
+    }
+    */
 
     public Deck() {
         for (Suit suit : Suit.values()) {
@@ -19,6 +26,11 @@ public final class Deck {
     
     public boolean isEmpty() {
         return cards.isEmpty();
+    }
+    
+    public Card getCardAt(int i) {
+        assert 0 <= i && i < cards.size();
+        return cards.get(i);
     }
     
     public Card draw() {
