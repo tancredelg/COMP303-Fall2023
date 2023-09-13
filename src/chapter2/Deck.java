@@ -6,6 +6,7 @@ import java.util.List;
 
 public final class Deck {
     private List<Card> cards = new ArrayList<>();
+    
 
     public Deck() {
         for (Suit suit : Suit.values()) {
@@ -14,5 +15,14 @@ public final class Deck {
             }
         }
         Collections.shuffle(cards);
+    }
+    
+    public boolean isEmpty() {
+        return cards.isEmpty();
+    }
+    
+    public Card draw() {
+        assert !isEmpty();
+        return cards.get(0);
     }
 }
