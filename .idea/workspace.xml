@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80aa9481-65b6-4ea9-b68e-a9c2f30d532f" name="Changes" comment="">
+    <list default="true" id="80aa9481-65b6-4ea9-b68e-a9c2f30d532f" name="Changes" comment="Chapter 3 started&#10;- Implemented deck configuration using interfaces and predicates&#10;- Refactored Deck constructor for the configurator">
+      <change afterPath="$PROJECT_DIR$/src/chapter3/AllCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/ConfigPredicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Face.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/NoCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/NoFace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter3/Suit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter2/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Rank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Rank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Suit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/Suit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,6 +41,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -84,7 +100,8 @@
       <workItem from="1694608670579" duration="1703000" />
       <workItem from="1694610415119" duration="7000" />
       <workItem from="1694610475829" duration="139000" />
-      <workItem from="1694611106673" duration="1912000" />
+      <workItem from="1694611106673" duration="1997000" />
+      <workItem from="1695041165329" duration="4427000" />
     </task>
     <task id="LOCAL-00001" summary="Progress from today's class: added classes Client and Card, and  enums Rank and Suit.">
       <option name="closed" value="true" />
@@ -110,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694611831963</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="- More work on Deck class.">
+      <option name="closed" value="true" />
+      <created>1694613344501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694613344501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +145,7 @@
     <MESSAGE value="Progress from today's class: added classes Client and Card, and  enums Rank and Suit." />
     <MESSAGE value="- Refactored Card class to no longer use id, instead using enums Suit and Rank.&#10;&#10;- Started work on the Deck class." />
     <MESSAGE value="- More work on Deck class." />
-    <option name="LAST_COMMIT_MESSAGE" value="- More work on Deck class." />
+    <MESSAGE value="Chapter 3 started&#10;- Implemented deck configuration using interfaces and predicates&#10;- Refactored Deck constructor for the configurator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 3 started&#10;- Implemented deck configuration using interfaces and predicates&#10;- Refactored Deck constructor for the configurator" />
   </component>
 </project>
