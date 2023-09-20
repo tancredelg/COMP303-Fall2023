@@ -1,6 +1,6 @@
 package chapter3;
 
-public final class Card {
+public final class Card implements Comparable<Card> {
     private Rank rank;
     private Suit suit;
     public Rank rank() {
@@ -35,5 +35,13 @@ public final class Card {
     @Override
     public String toString() {
         return rank + " of " + suit;
+    }
+
+    @Override
+    public int compareTo(Card card) {
+        if (suit().compareTo(card.suit()) == 0) {
+            return rank().compareTo(card.rank());
+        }
+        return suit().compareTo(card.suit());
     }
 }

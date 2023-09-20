@@ -10,17 +10,14 @@ public final class Deck {
 
     public Deck() {
         initializeDeck();
+        cards.removeIf(card -> card.rank() != Rank.TWO);
         Collections.shuffle(cards);
     }
 
     public Deck(Predicate<Card> config) {
         initializeDeck();
-        cards.removeIf(new Predicate<Card>() {
-            @Override
-            public boolean test(Card card) {
-                return card.rank() != Rank.TWO;
-            }
-        });
+        cards.removeIf(config);
+        Collections.shuffle(cards);
     }
     
     public Deck(ConfigPredicate config) {
