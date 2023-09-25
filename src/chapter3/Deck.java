@@ -2,15 +2,16 @@ package chapter3;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.function.Predicate;
 
-public final class Deck {
+public class Deck implements Iterable<Card> {
     private List<Card> cards = new ArrayList<>();
 
     public Deck() {
         initializeDeck();
-        cards.removeIf(card -> card.rank() != Rank.TWO);
+        // cards.removeIf(card -> card.rank() != Rank.TWO);
         Collections.shuffle(cards);
     }
 
@@ -51,6 +52,27 @@ public final class Deck {
     
     public Card draw() {
         assert !isEmpty();
-        return cards.get(0);
+        return getCardAt(0);
+    }
+    
+    public List<Card> getCards() { return Collections.unmodifiableList(cards); }
+    
+    public Iterator<Card> getIterator() {
+        return cards.iterator();
+    }
+
+    @Override
+    public String toString() {
+        if (isEmpty()) return "[empty deck]";
+        StringBuilder s = new StringBuilder(getCardAt(0).toString());
+        for (int i = 1; i < cards.size(); i++) {
+            s.append("\n").append(getCardAt(i));
+        }
+        return s.toString();
+    }
+
+    @Override
+    public Iterator<Card> iterator() {
+        return getIterator();
     }
 }
