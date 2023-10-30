@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80aa9481-65b6-4ea9-b68e-a9c2f30d532f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter5/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/Rank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/Suit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/TestToArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Comedy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/CompositeShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/DoubleBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/IntroducedShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter6/Show.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapter5/TestCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/chapter5/TestDeck.java" afterDir="false" />
+    <list default="true" id="80aa9481-65b6-4ea9-b68e-a9c2f30d532f" name="Changes" comment="Chapter 4 started&#10;- Looked at object instances and behaviour during runtime&#10;- Flyweight pattern implemented for Card">
+      <change afterPath="$PROJECT_DIR$/src/chapter6/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP303-Fall2023.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP303-Fall2023.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter6/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -213,7 +197,7 @@
       <workItem from="1697632718967" duration="4643000" />
       <workItem from="1698065174311" duration="4160000" />
       <workItem from="1698237884279" duration="4230000" />
-      <workItem from="1698669679671" duration="432000" />
+      <workItem from="1698669679671" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="Progress from today's class: added classes Client and Card, and  enums Rank and Suit.">
       <option name="closed" value="true" />
@@ -279,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695823161970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Chapter 5&#10;- Object states&#10;- Testing">
+      <option name="closed" value="true" />
+      <created>1698670422748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698670422748</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Chapter 6 started&#10;- Implementing composition in a movie/show program">
+      <option name="closed" value="true" />
+      <created>1698670573389</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698670573389</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +292,9 @@
     <MESSAGE value="Chapter 3 started&#10;- Implemented deck configuration using interfaces and predicates&#10;- Refactored Deck constructor for the configurator" />
     <MESSAGE value="Chapter 3 continued&#10;- Tried out some string sorting techniques by modifying the implementation of the comparator being used.&#10;- Refactored Card to sort by Suit, then Rank." />
     <MESSAGE value="Chapter 3 finished&#10;- Covered and implemented Iterator and Iterable" />
+    <MESSAGE value="Chapter 5&#10;- Object states&#10;- Testing" />
     <MESSAGE value="Chapter 4 started&#10;- Looked at object instances and behaviour during runtime&#10;- Flyweight pattern implemented for Card" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 4 started&#10;- Looked at object instances and behaviour during runtime&#10;- Flyweight pattern implemented for Card" />
+    <MESSAGE value="Chapter 6 started&#10;- Implementing composition in a movie/show program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 6 started&#10;- Implementing composition in a movie/show program" />
   </component>
 </project>

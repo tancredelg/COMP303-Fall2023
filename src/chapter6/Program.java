@@ -1,6 +1,7 @@
 package chapter6;
 
 import java.util.EnumMap;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -28,22 +29,82 @@ public class Program {
      * @param show The show being aired
      * @pre
      */
-    public void set(Day day, Show show) {
+    private void set(Day day, Show show) {
         shows.put(day, show);
     }
+    public Command createSetCommand(Day day, Show show) {
+        return new Command() {
+            private Show previous;
+            @Override
+            public void execute() {
+                previous = get(day);
+                set(day, show);
+            }
+
+            @Override
+            public void undo() {
+                set(day, previous);
+            }
+
+            @Override
+            public String toString() {
+                return String.format("set(%s, %s)", day, show);
+            }
+        };
+    }
     
-    public void unset(Day day) {
+    private void unset(Day day) {
         shows.remove(day);
+    }
+    public Command createUnsetCommand(Day day) {
+        return new Command() {
+            private Show previous;
+            @Override
+            public void execute() {
+                previous = get(day);
+                unset(day);
+            }
+
+            @Override
+            public void undo() {
+                set(day, previous);
+            }
+
+            @Override
+            public String toString() {
+                return String.format("unset(%s)", day);
+            }
+        };
     }
     
     public void setDefaultShow(Show show) {
         defaultShow = show;
     }
     
-    public void clear() {
+    private void clear() {
         for (Day day: Day.values()) {
             shows.put(day, defaultShow);
         }
+    }
+    public Command createClearCommand() {
+        return new Command() {
+            private final Map<Day, Show> previous = new HashMap<>();
+            @Override
+            public void execute() {
+                previous.putAll(shows);
+                clear();
+            }
+
+            @Override
+            public void undo() {
+                shows.putAll(previous);
+            }
+
+            @Override
+            public String toString() {
+                return "clear()";
+            }
+        };
     }
 
     @Override

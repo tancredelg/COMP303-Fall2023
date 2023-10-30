@@ -11,8 +11,8 @@ public class Client {
         Show show2 = new IntroducedShow(15, "George Lucas", show);
         
         Program p = new Program();
-        p.setDefaultShow(A_NEW_HOPE);
-        p.clear();
+        Command setCommand = p.createSetCommand(Day.MONDAY, EMPIRE_STRIKES_BACK);
+        Command unsetCommand = p.createUnsetCommand(Day.MONDAY);
         System.out.println(p);
     }
 }
