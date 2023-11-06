@@ -9,4 +9,14 @@ public class SponsoredComedy extends Comedy {
         this.sponsor = sponsor;
         this.sponsorTime = sponsorTime;
     }
+
+    @Override
+    public int getTime() {
+        return super.getTime() + sponsorTime;
+    }
+
+    @Override
+    protected String extraInformation() {
+        return String.format("%s [sponsored by %s]", super.extraInformation(), sponsor);
+    }
 }

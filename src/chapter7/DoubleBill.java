@@ -25,6 +25,6 @@ public class DoubleBill implements Show {
 
     @Override
     public Show copy() {
-        return new DoubleBill(movie1.copy(), movie2.copy());
+        return null;//new DoubleBill(movie1.copy(), movie2.copy());
     }
 }
