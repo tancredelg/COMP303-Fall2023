@@ -12,4 +12,9 @@ public class Movie extends AbstractShow {
     protected String extraInformation() {
         return String.format("(%d)", year);
     }
+
+    @Override
+    public Show copy() {
+        return null;
+    }
 }

@@ -1,6 +1,6 @@
 package chapter7;
 
-public abstract class AbstractShow implements Show {
+public abstract class AbstractShow implements Show, Cloneable {
     private String title;
     private int time;
 
@@ -25,10 +25,5 @@ public abstract class AbstractShow implements Show {
     @Override
     public String toString() {
         return description();
-    }
-
-    @Override
-    public Show copy() {
-        return null;
     }
 }

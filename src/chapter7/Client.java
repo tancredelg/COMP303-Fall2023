@@ -11,9 +11,9 @@ public class Client {
     public static void main(String[] args) {
         Show show = new CompositeShow(A_NEW_HOPE, EMPIRE_STRIKES_BACK, RETURN_OF_THE_JEDI);
         Show show2 = new IntroducedShow(15, "George Lucas", show);
-
         System.out.println(A_NEW_HOPE);
         System.out.println(CHAVES);
-        System.out.println(CHAVES_SPONSORED);
+        Comedy copy = CHAVES.clone();
+        System.out.println(copy);
     }
 }

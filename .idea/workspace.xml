@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80aa9481-65b6-4ea9-b68e-a9c2f30d532f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter7/AbstractShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter7/AbstractShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/AbstractShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter7/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter7/Comedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/Comedy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter7/DoubleBill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/DoubleBill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter7/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter7/SponsoredComedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter7/SponsoredComedy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/itzta/Documents/Programming/IdeaProjects/COMP303-Fall2023/src/chapter7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/itzta/Documents/Programming/IdeaProjects/COMP303-Fall2023/src/chapter7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\itzta\Documents\Programming\IdeaProjects\COMP303-Fall2023\src\chapter7" />
@@ -202,7 +201,8 @@
       <workItem from="1698669679671" duration="4338000" />
       <workItem from="1698675337370" duration="92000" />
       <workItem from="1698842703582" duration="2646000" />
-      <workItem from="1699277937998" duration="4090000" />
+      <workItem from="1699277937998" duration="4652000" />
+      <workItem from="1699450712574" duration="2563000" />
     </task>
     <task id="LOCAL-00001" summary="Progress from today's class: added classes Client and Card, and  enums Rank and Suit.">
       <option name="closed" value="true" />
@@ -300,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698850093514</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Chapter 7 continued&#10;- Abstract classes">
+      <option name="closed" value="true" />
+      <created>1699305425514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699305425514</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,7 @@
     <MESSAGE value="Chapter 4 started&#10;- Looked at object instances and behaviour during runtime&#10;- Flyweight pattern implemented for Card" />
     <MESSAGE value="Chapter 6 continued&#10;- Command pattern" />
     <MESSAGE value="Chapter 7 started&#10;- Introduction to inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7 started&#10;- Introduction to inheritance" />
+    <MESSAGE value="Chapter 7 continued&#10;- Abstract classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 7 continued&#10;- Abstract classes" />
   </component>
 </project>
